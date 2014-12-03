@@ -1,10 +1,10 @@
-Name: HBase
-Cartridge-Short-Name: HBase
+Name: hbase
+Cartridge-Short-Name: hbase
 Cartridge-Version: '0.0.1'
 Compatible-Versions:
   - '0.0.1'
 Cartridge-Vendor: sundn
-Display-Name: HBase
+Display-Name: hbase
 Description: ""
 Version: '0.99.8'
 Versions:
