@@ -1,2 +1,4 @@
 #!/bin/bash 
 
+export JAVA_HOME=/etc/alternatives/java_sdk_1.7.0/
+export OPENSHIFT_HBASE_HOSTNAME=`hostname`

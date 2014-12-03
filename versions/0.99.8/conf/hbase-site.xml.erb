@@ -36,42 +36,42 @@
   </property>
   <property>
     <name>hbase.rootdir</name>
-    <value>file://<%= ENV['OPENSHIFT_DATA_DIR'] %>/.hbase/</value>
+    <value>file://<%= ENV['OPENSHIFT_DATA_DIR'] %>.hbase/</value>
   </property>
   <property>
     <name>hbase.master.ipc.address</name>
-    <value>127.2.78.129</value>
+    <value><%= ENV['OPENSHIFT_HBASE_IP'] %></value>
   </property>
   <property>
     <name>hbase.zookeeper.property.dataDir</name>
-    <value><%= ENV['OPENSHIFT_DATA_DIR'] %>/.zookeeper</value>
+    <value><%= ENV['OPENSHIFT_DATA_DIR'] %>.zookeeper</value>
   </property>
   <property>
     <name>hbase.zookeeper.property.clientPort</name>
-        <value>15100</value>
+    <value><%= ENV['OPENSHIFT_HBASE_ZOOKEEPER_CLIENT_PORT'] %></value>
   </property>
   <property>
-     <name>hbase.master.port</name>
-     <value>15300</value>
+    <name>hbase.master.port</name>
+    <value>15300</value>
   </property>
   <property>
     <name>hbase.master.bindAddress</name>
-    <value>127.2.78.129</value>
+    <value><%= ENV['OPENSHIFT_HBASE_IP'] %></value>
   </property>
   <property>
     <name>hbase.zookeeper.property.clientPortAddress</name>
-    <value>127.2.78.129</value>
+    <value><%= ENV['OPENSHIFT_HBASE_IP'] %></value>
   </property>
   <property>
-        <name>hbase.master.info.bindAddress</name>
-        <value>127.2.78.129</value>
+    <name>hbase.master.info.bindAddress</name>
+    <value><%= ENV['OPENSHIFT_HBASE_IP'] %></value>
   </property>
   <property>
-        <name>hbase.regionserver.info.bindAddress</name>
-        <value>127.2.78.129</value>
+    <name>hbase.regionserver.info.bindAddress</name>
+    <value><%= ENV['OPENSHIFT_HBASE_IP'] %></value>
   </property>
   <property>
-     <name>hbase.config.read.zookeeper.config</name>
-     <value>false</value>
+    <name>hbase.config.read.zookeeper.config</name>
+    <value>false</value>
   </property>
 </configuration>

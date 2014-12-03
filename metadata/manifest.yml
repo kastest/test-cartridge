@@ -20,10 +20,10 @@ Categories:
 Website: http://www.php.net
     - web_proxy
 Endpoints:
-  - Private-IP-Name:   IP1
+  - Private-IP-Name:   IP
     Private-Port-Name: ZOOKEEPER_CLIENT_PORT
     Private-Port:      15100
-    Public-Port-Name:  ZOOKEEPER_CLIENT_PORTT
+    Public-Port-Name:  ZOOKEEPER_CLIENT_PORT
     
 Additional-Control-Actions:
   - threaddump
