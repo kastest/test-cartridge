@@ -2,30 +2,23 @@
 
 
 function status() {
-  echo
+  echo ""
 }
 
 function update() {
-  echo
+  echo ""
 }
 
 function start() {
-  ../versions/0.99.8/bin/hbase-daemon.sh start zookeeper
-  ../versions/0.99.8/bin/hbase-daemon.sh start master
-  ../versions/0.99.8/bin/hbase-daemon.sh start peerserver
-  echo
+  echo ""
 }
 
 function stop() {
-  ../versions/0.99.8/bin/hbase-daemon.sh stop peerserver
-  ../versions/0.99.8/bin/hbase-daemon.sh stop master
-  ../versions/0.99.8/bin/hbase-daemon.sh stop zookeeper
-  echo
+
+  echo ""
 }
 
 function restart() {
-  stop()
-  start()
   echo
 }
 
