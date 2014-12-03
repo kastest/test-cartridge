@@ -12,8 +12,7 @@ Versions:
   - '0.99.8'
 License: ""
 Vendor: Apache
-Categories:
-  - web_framework
+Categories: 
   - service
   - database
   - hbase
