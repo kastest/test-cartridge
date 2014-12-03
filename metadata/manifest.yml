@@ -13,6 +13,7 @@ Versions:
 License: ""
 Vendor: Apache
 Categories:
+  - web_framework
   - service
   - database
   - hbase
