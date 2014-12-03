@@ -52,7 +52,7 @@
   </property>
   <property>
     <name>hbase.master.port</name>
-    <value>15300</value>
+    <value><%= ENV['OPENSHIFT_HBASE_MASTER_PORT'] %></value>
   </property>
   <property>
     <name>hbase.master.bindAddress</name>

@@ -13,6 +13,7 @@ Versions:
 License: ""
 Vendor: Apache
 Categories:
+  - web_framework
   - service
   - database
   - hbase
@@ -24,7 +25,10 @@ Endpoints:
     Private-Port-Name: ZOOKEEPER_CLIENT_PORT
     Private-Port:      15100
     Public-Port-Name:  ZOOKEEPER_CLIENT_PORT
-    
+  - Private-IP-Name:   IP
+    Private-Port-Name: MASTER_PORT
+    Private-Port:      15300
+    Public-Port-Name:  MASTER_PORT
 Additional-Control-Actions:
   - threaddump
 
