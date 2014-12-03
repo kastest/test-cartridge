@@ -24,7 +24,7 @@ Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: REST_PORT
     Private-Port:      8080
-    Public-Port-Name:  ZOOKEEPER_UI_PORT
+    Public-Port-Name:  REST_PORT
   - Private-IP-Name:   IP
     Private-Port-Name: ZOOKEEPER_UI_PORT
     Private-Port:      15800
