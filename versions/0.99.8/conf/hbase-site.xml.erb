@@ -28,7 +28,15 @@
   </property>
   <property>
      <name>hbase.master.info.port</name>
-     <value>8080</value>
+     <value><%= ENV['OPENSHIFT_HBASE_UI_PORT'] %></value>
+  </property>
+  <property>
+    <name>hbase.regionserver.info.port</name>
+    <value>-1</value>
+  </property>
+  <property>
+    <name>hbase.regionserver.port</value>
+    <value><%= ENV['OPENSHIFT_HBASE_REGION_PORT'] %></value>
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
@@ -49,6 +57,14 @@
   <property>
     <name>hbase.zookeeper.property.clientPort</name>
     <value><%= ENV['OPENSHIFT_HBASE_ZOOKEEPER_CLIENT_PORT'] %></value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.peerport</name>
+    <value><%= ENV['OPENSHIFT_HBASE_ZOOKEEPER_PEER_PORT'] %></value>
+  </property>
+  <property>
+    <name>hbase.zookeeper.leaderport</name>
+    <value><%= ENV['OPENSHIFT_HBASE_ZOOKEEPER_LEADER_PORT'] %></value>
   </property>
   <property>
     <name>hbase.master.port</name>

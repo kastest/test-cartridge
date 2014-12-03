@@ -21,6 +21,14 @@ Website: http://www.php.net
     - web_proxy
 Endpoints:
   - Private-IP-Name:   IP
+    Private-Port-Name: REST_PORT
+    Private-Port:      8080
+    Public-Port-Name:  ZOOKEEPER_UI_PORT
+  - Private-IP-Name:   IP
+    Private-Port-Name: ZOOKEEPER_UI_PORT
+    Private-Port:      15800
+    Public-Port-Name:  ZOOKEEPER_UI_PORT
+  - Private-IP-Name:   IP
     Private-Port-Name: ZOOKEEPER_CLIENT_PORT
     Private-Port:      15100
     Public-Port-Name:  ZOOKEEPER_CLIENT_PORT
@@ -28,6 +36,18 @@ Endpoints:
     Private-Port-Name: MASTER_PORT
     Private-Port:      15300
     Public-Port-Name:  MASTER_PORT
+  - Private-IP-Name:   IP
+    Private-Port-Name: REGION_PORT
+    Private-Port:      16100
+    Public-Port-Name:  REGION_PORT
+  - Private-IP-Name:   IP
+    Private-Port-Name: PEER_PORT
+    Private-Port:      15500
+    Public-Port-Name:  PEER_PORT
+  - Private-IP-Name:   IP
+    Private-Port-Name: LEADER_PORT
+    Private-Port:      15700
+    Public-Port-Name:  LEADER_PORT
 Additional-Control-Actions:
   - threaddump
 
