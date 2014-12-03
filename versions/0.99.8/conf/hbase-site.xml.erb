@@ -36,7 +36,7 @@
   </property>
   <property>
     <name>hbase.rootdir</name>
-    <value>file://${OPENSHIFT_DATA_DIR}/hbase/</value>
+    <value>file://<%= ENV['OPENSHIFT_DATA_DIR'] %>/.hbase/</value>
   </property>
   <property>
     <name>hbase.master.ipc.address</name>
@@ -44,7 +44,7 @@
   </property>
   <property>
     <name>hbase.zookeeper.property.dataDir</name>
-    <value>zookeeper</value>
+    <value><%= ENV['OPENSHIFT_DATA_DIR'] %>/.zookeeper</value>
   </property>
   <property>
     <name>hbase.zookeeper.property.clientPort</name>
