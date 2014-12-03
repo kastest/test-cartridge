@@ -3,7 +3,7 @@ Cartridge-Short-Name: HBase
 Cartridge-Version: '0.0.1'
 Compatible-Versions:
   - '0.0.1'
-Cartridge-Vendor: s-und-n
+Cartridge-Vendor: sundn
 Display-Name: HBase
 Description: ""
 Version: '0.99.8'
