@@ -32,7 +32,7 @@
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>ex-std-node490.prod.rhcloud.com</value>
+    <value><%= ENV['OPENSHIFT_HBASE_HOSTNAME'] %></value>
   </property>
   <property>
     <name>hbase.rootdir</name>
