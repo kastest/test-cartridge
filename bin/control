@@ -22,28 +22,7 @@ function restart() {
 }
 
 function use-source() {
-  if ! [ $# -gt 0 ]; then
-    echo "Usage: $0 git-repository-url [commit]"
-    return 1
-  fi
-
-  stop
-  set -e
-  mkdir -p $TMP/_env/
-  rm -rf $TMP/_env/*
-  cp env/* $TMP/_env/
-  rm -rf .??* *
-  if [ -n $2 ]; then
-    echo "Switching to using source from $1, commit $2"
-    git clone $1 -b $2 .
-  else
-   echo "Switching to using source from $1"
-   git clone $1 .
-  fi
-  mkdir -p env
-  p $TMP/_env/* env/
-  rm -rf $TMP/_env
-  bin/setup
+  echo
 }
 
 function build() {
