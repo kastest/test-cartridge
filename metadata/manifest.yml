@@ -1,0 +1,28 @@
+Name: HBase
+Cartridge-Short-Name: HBase
+Cartridge-Version: '0.0.1'
+Compatible-Versions:
+  - '0.0.1'
+Cartridge-Vendor: s-und-n
+Display-Name: HBase
+Description: ""
+Version: '0.99.8'
+Versions:
+  - '0.99.8'
+License: ""
+Vendor: Apache
+Categories:
+  - database
+  - hbase
+  - bigdata
+Website: http://www.php.net
+    - web_proxy
+Endpoints:
+  - Private-IP-Name:   IP1
+    Private-Port-Name: ZOOKEEPER_CLIENT_PORT
+    Private-Port:      15100
+    Public-Port-Name:  ZOOKEEPER_CLIENT_PORTT
+    
+Additional-Control-Actions:
+  - threaddump
+

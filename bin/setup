@@ -1,0 +1,3 @@
+#!/bin/bash -e
+set -u
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
