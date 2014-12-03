@@ -7,7 +7,7 @@ Cartridge-Vendor: sundn
 Display-Name: hbase
 Description: ""
 Version: '0.99.8'
-Source-Url: https://github.com/kastest/test-cartridge.git
+Source-Url: https://github.com/kastest/test-cartridge/archive/master.zip
 Versions:
   - '0.99.8'
 License: ""
